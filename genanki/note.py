@@ -1,6 +1,8 @@
 import re
 import warnings
-from cached_property import cached_property
+# Need Python 3.8.
+#from cached_property import cached_property
+from functools import cached_property
 
 from .builtin_models import _fix_deprecated_builtin_models_and_warn
 from .card import Card

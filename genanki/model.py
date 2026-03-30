@@ -1,5 +1,7 @@
 from copy import copy
-from cached_property import cached_property
+# Need Python 3.8.
+#from cached_property import cached_property
+from functools import cached_property
 import chevron
 import yaml
 
